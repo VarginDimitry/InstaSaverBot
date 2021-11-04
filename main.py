@@ -8,7 +8,7 @@ import handlers
 
 
 async def on_startup(dispatcher):
-    logging.basicConfig(level=logging.INFO)
+    logging.basicConfig(level=logging.DEBUG)
 
 
 if __name__ == '__main__':
